@@ -38,7 +38,7 @@ body {
 input {
   margin-top: 30px;
   padding: 5px;
-  width: 40%;
+  width: 250px;
   font-weight: bold;
 }
 
@@ -59,23 +59,27 @@ p {
 }
 
 .listDataDisplay {
-  margin-top: 12px;
+  margin-top: 6px;
   background-color: rgb(209, 230, 182);
-  width: 40%;
-  height: 30px;
+  width: 250px;
+  height: 42px;
   text-align: left;
-  padding-left: 20px;
+  padding-left: 10px;
   padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 #removeBtn {
-  background-color: rgb(231, 46, 86);
+  background-color: rgb(212, 66, 86);
   margin-top: 12px;  
+  margin-bottom: 9px; 
+  width: 15%;
 }
 
 #removeAllBtn {
-  background-color: rgb(231, 46, 86);
+  background-color: rgb(212, 66, 86);
   margin-top: 60px;
+  width: 23%;
 }
 
 @keyframes App-logo-spin {
