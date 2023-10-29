@@ -29,10 +29,8 @@ function TodoList() {
             <header className="head">TO DO List</header>
             <input type='text' placeholder='Add your task' value={task} onChange={event => setTask(event.target.value)} />
             <button onClick={addTask}>Add</button>
-            <br/>
-            <br/>
-            <br/>
-
+            <div className='space'></div>
+            
             {listData != [] && listData.map((data, i) => {
                 return (
                     <div>
