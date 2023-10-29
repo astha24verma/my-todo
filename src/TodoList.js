@@ -5,6 +5,7 @@ function TodoList() {
     const [listData, setListData] = useState([])
 
     function addTask() {
+        if(task.length === 0) return;
         setListData((listData) => {
             const updatedListData = [...listData, task]
             setTask("")
@@ -15,7 +16,7 @@ function TodoList() {
 
     function removeTask(i) {
         const updatedListDataAfterRemoving = listData.filter((elem, id) => {
-            return i != id
+            return i !== id
         })
         setListData(updatedListDataAfterRemoving)
     }
