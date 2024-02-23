@@ -51,6 +51,7 @@ button {
   background-color: rgb(63, 158, 63);
   border-radius: 4px;
   color: white;
+  border-color: rgb(102, 101, 101);
 }
 
 p {
